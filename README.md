@@ -9,6 +9,11 @@ Tiene instaladas distintas dependencias.
 para poder correr el servicio es necesario antes usar el comando:
 - dotnet restore
 
+Además de esto, se debe tener habilitada la autenticación del servidor con Windows y SQL Server.
+
+<img width="735" height="692" alt="image" src="https://github.com/user-attachments/assets/72b7ea85-085e-4d1d-9a11-53950d028f7c" />
+
+
 Luego, ocupar los archivos de la carpeta BaseDatos, primero el archivo 1_Creacion_DB_y_usuario.sql y luego 2_TablasSQL.sql, estos para crear BD, usuario y tablas.
 
 Se debe configurar el archivo appsettings.json y cambiar el servidor.
