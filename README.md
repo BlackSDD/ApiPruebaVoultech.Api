@@ -1,27 +1,27 @@
-Esta es una prueba tecnica
+Esta es una prueba técnica.
 
-este proyecto esta creado con .NET 10, Visual Studio 2026 y SDK 10.0.3 es necesario tener esa version de SDK instalada, ademas de SQL server 2025
+Este proyecto está creado con .NET 10, Visual Studio 2026 y SDK 10.0.3; es necesario tener esa versión de SDK instalada, además de SQL Server 2025.
 
-tiene instaladas distintas dependecias
+Tiene instaladas distintas dependencias.
 
 <img width="360" height="119" alt="image" src="https://github.com/user-attachments/assets/00c4fa43-1608-4f86-b472-1d488c221d4d" />
 
 para poder correr el servicio es necesario antes usar el comando:
 - dotnet restore
 
-Luego ocupar los archivos de la carpeta BaseDatos , primero el archivo 1_Creacion_DB_y_usuario.sql y luego 2_TablasSQL.sql, estos para crear BD, usuario y tablas
+Luego, ocupar los archivos de la carpeta BaseDatos, primero el archivo 1_Creacion_DB_y_usuario.sql y luego 2_TablasSQL.sql, estos para crear BD, usuario y tablas.
 
-Se debe configurar el archivo appsettings.json y cambiar el servidor 
+Se debe configurar el archivo appsettings.json y cambiar el servidor.
 
 <img width="1213" height="209" alt="image" src="https://github.com/user-attachments/assets/0e0269b0-086a-40d6-8c3b-050d3c80be38" />
 
-para ejecutar la API se debe usar el comando dotnet run o abrir el proyecto desde visual studio
+Para ejecutar la API, se debe usar el comando dotnet run o abrir el proyecto desde Visual Studio.
 
-Esta aplicacion cuenta con la implementacion de Swagger para el versionamiento de la aplicacion
+Esta aplicación cuenta con la implementación de Swagger para el versionamiento de la aplicación.
 
 <img width="1576" height="720" alt="image" src="https://github.com/user-attachments/assets/aeb2e9eb-a57d-4040-a3eb-6a1c3bda0802" />
 
-Las pruebas se realizaron por postman, dejo imagenes de las pruebas realizadas;
+Las pruebas se realizaron por Postman; dejo imágenes de las pruebas realizadas.
 
 Orden Compra:
 
