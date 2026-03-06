@@ -1,0 +1,6 @@
+@ApiPruebaVoultech.Api_HostAddress = http://localhost:5182
+
+GET {{ApiPruebaVoultech.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
